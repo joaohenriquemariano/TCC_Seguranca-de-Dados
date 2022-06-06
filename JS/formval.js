@@ -1,3 +1,5 @@
+/* Função do Java com Formulário, ele será responsável para fazer a comunicação com as perguntas que foram selecionadas */
+
 var answers = {};
 
 var question_one = document.getElementById('question-1');

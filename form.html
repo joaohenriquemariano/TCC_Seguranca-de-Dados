@@ -1,3 +1,5 @@
+<!--Questionário de perguntas-->
+
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
@@ -7,14 +9,14 @@
   <meta name="author" content="Luke Lehane">
 
   <link rel="stylesheet" href="CSS/formst.css">
-
+  <script src="JS/formval.js"></script>
 </head>
 
 <body>
   <div class="container">	
     <div class="row">
   	  <div class="two-thirds column">
-        <h2>Security Survey</h2>
+        <h1 id="informa">Veja o seu nível de Segurança</h1>
 
         <div id="progress_bar"></div>
   	  	<form class="questions_box">
@@ -74,16 +76,10 @@
            <h3>Seu nível de segurança é: </h3>
            <h1 id=printtotalscore></h1>
            <p id=printscoreinfo></p>
-         </div>
-
-
-  				
+         </div> 			
   	  	</form>
-
   	  </div>
   	</div>
   </div>
-
-  <script src="JS/formval.js"></script>
 </body>
 </html>

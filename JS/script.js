@@ -1,3 +1,5 @@
+/* Função do Botão Menu estilo Mobile */
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -8,7 +10,9 @@ function menuShow() {
         document.querySelector('.icon').src = "img/close_white_36dp.svg";
     }
 }
+
 //Funcionalidade da animação //
+
 window.onload = function(){
     Particles.init({
       selector: '.background',
