@@ -61,7 +61,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Barclaycard Co Lt', sans-serif;
-  color: #00ff0d;
+  color: #8400ff;
   margin-top: 0;
 }
 
@@ -132,22 +132,12 @@ h3 {
   height: 10px;
   transition: all 100ms ease-in-out;
 }
+
 /* Animação com CSS na pagina Formulário */
+
 body {
-	background: linear-gradient(-45deg, #161616, #00b7ff, #6f00ff, #ff03ff);
+	background: #000000;
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
