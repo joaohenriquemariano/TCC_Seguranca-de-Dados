@@ -1,0 +1,21 @@
+/* Design dos cards Sobres os Assuntos relacionados  */
+
+.col-sm-4 h3 {
+    color: #000000;
+    margin-top: 24px
+}
+
+.col-sm-4 p {
+    color: #0011ff;
+}
+
+.col-sm-4 strong {
+    color: #0011ff;
+}
+
+.col-sm-4 img {
+    margin-left: 30%;
+    width: 65px;
+    height: auto;
+    color: #ffff;
+}
